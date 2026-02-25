@@ -1,4 +1,4 @@
-package com.example.hostel_management_app
+package com.example.mess_management
 
 import io.flutter.embedding.android.FlutterActivity
 

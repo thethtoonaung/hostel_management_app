@@ -1,4 +1,4 @@
-# hostel_management_app
+# mess_management
 
 A new Flutter project.
 
