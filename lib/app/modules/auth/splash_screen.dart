@@ -59,10 +59,10 @@ class _SplashScreenState extends State<SplashScreen>
     });
 
     // Wait a bit more then navigate directly to login
-    await Future.delayed(const Duration(seconds: 1));
+    await Future.delayed(const Duration(seconds: 3));
 
     if (mounted) {
-      Get.offAllNamed('/login');
+      Get.offAllNamed('/login'); //THN
     }
   }
 
@@ -180,7 +180,7 @@ class _SplashScreenState extends State<SplashScreen>
                   size: ResponsiveHelper.getIconSize(context, 'large'),
                   color: AppColors.primary,
                 ),
-               ],
+              ],
             ),
           ),
 
